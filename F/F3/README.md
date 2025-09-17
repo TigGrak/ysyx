@@ -18,7 +18,7 @@
 
 >通过5个拨码开关和1个七段数码管, 实现如下功能: 其中4个拨码开关当作数据输入, 剩下1个拨码开关作为进位计数制的选择, 当选择信号为`0`时, 七段数码管以十进制方式显示数据; 当选择信号为`1`时, 七段数码管以十六进制方式显示数据. 在输入数据为10-15时, 两种显示方式有所不同.
 
-可能的解法：
+可能的解法：[F3_4_Switchable_counter_base_seven-segment_display.circ](F3_4_Switchable_counter_base_seven-segment_display.circ)
 
 <br>
 
