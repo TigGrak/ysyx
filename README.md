@@ -1,2 +1,5 @@
-# ysyx
-ysyx study
+# TigGrak [一生一芯](https://ysyx.oscc.cc/) 学习
+
+| 阶段 | 小节 |
+| :-----| ----: |
+| F | [3.数字逻辑电路基础](/F/p3) |
