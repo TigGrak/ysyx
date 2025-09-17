@@ -9,7 +9,7 @@
 >- 如果你不理解"3位4选1选择器"的含义, 你需要先仔细阅读上文对"1位2选1选择器"的说明
 >- 对于数据中的每一位, 都可以复用n选1译码器生成的选择信号进行选择
 
-可能的解法：[F3_3-bit 4-to-1 selector]( F\F3\F3_3-bit_4-to-1_selector.circ )
+可能的解法：[F3_3-bit_4-to-1_selector]( F3_3-bit_4-to-1_selector.circ )
 
 <br>
 
@@ -64,7 +64,7 @@
 
 >尝试为D锁存器添加一个用于复位的输入端和复位功能. 当复位信号有效时, D锁存器中存放的值将变为`0`.
 
-可能的解法：[F3_DL_with_reset_function.circ](F\F3\F3_DL_with_reset_function.circ)
+可能的解法：[F3_DL_with_reset_function.circ](F3_DL_with_reset_function.circ)
 
 <br>
 
@@ -73,7 +73,7 @@
 
 >尝试为D触发器添加一个用于复位的输入端和复位功能. 当复位信号有效时, D触发器中存放的值将变为`0`.
 
-可能的解法：[F3_DFF_with_reset_function.circ](F\F3\F3_DFF_with_reset_function.circ)
+可能的解法：[F3_DFF_with_reset_function.circ](F3_DFF_with_reset_function.circ)
 
 
 <br>
@@ -83,7 +83,7 @@
 
 >尝试在Logisim中通过D触发器和若干电路, 搭建一个带使能端的D触发器. 搭建后, 通过仿真检查你的方案是否正确.
 
-可能的解法：[F3_DFF_with_enable.circ](F\F3\F3_DFF_with_enable.circ)
+可能的解法：[F3_DFF_with_enable.circ](F3_DFF_with_enable.circ)
 
 
 <br>
@@ -93,7 +93,7 @@
 
 >尝试在Logisim中通过D触发器搭建一个4位的寄存器, 具备复位功能. 搭建后, 尝试从拨码开关向寄存器写入4位数据, 并将寄存器的输出接到七段数码管进行显示.
 
-可能的解法：[F3_4-bit_register.circ](F\F3\F3_4-bit_register.circ)
+可能的解法：[F3_4-bit_register.circ](F3_4-bit_register.circ)
 
 
 <br>
