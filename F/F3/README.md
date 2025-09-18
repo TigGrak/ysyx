@@ -1,6 +1,6 @@
 # [F3 数字逻辑电路基础](https://ysyx.oscc.cc/docs/2407/f/3.html)
 
-## 黄框题目
+## 题目
 1.[搭建3位4选1选择器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E7%BC%96%E7%A0%81%E5%99%A8)
     
 
