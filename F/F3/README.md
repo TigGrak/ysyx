@@ -22,7 +22,33 @@
 
 <br>
 
-4.[搭建4位减法器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8E%9F%E7%A0%81-sign-and-magnitude)
+3.[搭建1位全加器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8A%A0%E6%B3%95%E5%99%A8)
+
+>尝试列出1位全加器的真值表, 并在Logisim中通过门电路搭建一个1位全加器. 搭建后, 通过仿真检查你的方案是否正确.  
+
+可能的解法：[F3_Half_adderAFull_adder.circ](F3_Half_adderAFull_adder.circ)
+
+<br>
+
+4.[搭建1位全加器(2)](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8A%A0%E6%B3%95%E5%99%A8)
+
+>尝试实例化若干个半加器, 并添加少量门电路, 从而实现一个1位全加器. 搭建后, 通过仿真检查你的方案是否正确.
+
+可能的解法：[F3_Half_adderAFull_adder.circ](F3_Half_adderAFull_adder.circ)
+
+
+<br>
+
+5.[搭建4位加法器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8A%A0%E6%B3%95%E5%99%A8)
+>尝试在Logisim中通过门电路搭建一个4位加法器, 用七段数码管按十六进制显示加法器的两个输入和结果, 并用一个LED灯指示加法结果是否产生进位. 搭建后, 通过仿真检查你的方案是否正确.
+
+可能的解法：[F3_4_bit_adder.circ](F3_4_bit_adder.circ)
+
+
+
+<br>
+
+6.[搭建4位减法器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8E%9F%E7%A0%81-sign-and-magnitude)
 
 
 >根据4位加法器的设计思路, 尝试在Logisim中通过门电路搭建一个4位减法器, 用七段数码管按十六进制显示减法器的两个输入和结果, 并用一个LED灯指示减法结果是否产生借位. 搭建后, 通过仿真检查你的方案是否正确.
@@ -31,7 +57,7 @@
 
 <br>
 
-5.[搭建4位原码加法器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8E%9F%E7%A0%81-sign-and-magnitude)
+7.[搭建4位原码加法器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8E%9F%E7%A0%81-sign-and-magnitude)
 
 
 >理解原码加法器的工作原理后, 尝试用加法器, 减法器和多路选择器等部件, 在Logisim中搭建一个4位原码加法器. 为了显示符号位, 你可以额外实例化一个七段数码管, 结果为负数时显示负号`-`, 否则不显示. 搭建后, 通过仿真检查你的方案是否正确.
@@ -40,7 +66,7 @@
 
 <br>
 
-6.[搭建4位反码加法器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8F%8D%E7%A0%81-one-s-complement)
+8.[搭建4位反码加法器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%8F%8D%E7%A0%81-one-s-complement)
 
 
 >尝试按照上述思路, 在Logisim中搭建一个4位反码加法器. 搭建后, 通过仿真检查你的方案是否正确.
@@ -50,7 +76,7 @@
 
 <br>
 
-7.[检测补码加法是否发生溢出](https://ysyx.oscc.cc/docs/2407/f/3.html#%E6%BA%A2%E5%87%BA%E6%A3%80%E6%B5%8B)
+9.[检测补码加法是否发生溢出](https://ysyx.oscc.cc/docs/2407/f/3.html#%E6%BA%A2%E5%87%BA%E6%A3%80%E6%B5%8B)
 
 
 >将上述真值表补充完整, 尝试列出溢出条件的逻辑表达式. 然后在Logisim中在4位加法器的基础上添加溢出判断逻辑. 添加后, 通过仿真检查你的方案是否正确.
@@ -59,7 +85,7 @@
 
 <br>
 
-8.[搭建带复位功能的D锁存器](https://ysyx.oscc.cc/docs/2407/f/3.html#d%E9%94%81%E5%AD%98%E5%99%A8)
+10.[搭建带复位功能的D锁存器](https://ysyx.oscc.cc/docs/2407/f/3.html#d%E9%94%81%E5%AD%98%E5%99%A8)
 
 
 >尝试为D锁存器添加一个用于复位的输入端和复位功能. 当复位信号有效时, D锁存器中存放的值将变为`0`.
@@ -68,7 +94,7 @@
 
 <br>
 
-9.[搭建带复位功能的D触发器](https://ysyx.oscc.cc/docs/2407/f/3.html#d%E8%A7%A6%E5%8F%91%E5%99%A8)
+11.[搭建带复位功能的D触发器](https://ysyx.oscc.cc/docs/2407/f/3.html#d%E8%A7%A6%E5%8F%91%E5%99%A8)
 
 
 >尝试为D触发器添加一个用于复位的输入端和复位功能. 当复位信号有效时, D触发器中存放的值将变为`0`.
@@ -78,7 +104,7 @@
 
 <br>
 
-10.[搭建带使能端的D触发器](https://ysyx.oscc.cc/docs/2407/f/3.html#d%E8%A7%A6%E5%8F%91%E5%99%A8)
+12.[搭建带使能端的D触发器](https://ysyx.oscc.cc/docs/2407/f/3.html#d%E8%A7%A6%E5%8F%91%E5%99%A8)
 
 
 >尝试在Logisim中通过D触发器和若干电路, 搭建一个带使能端的D触发器. 搭建后, 通过仿真检查你的方案是否正确.
@@ -88,7 +114,7 @@
 
 <br>
 
-11.[搭建4位寄存器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%AF%84%E5%AD%98%E5%99%A8)
+13.[搭建4位寄存器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%AF%84%E5%AD%98%E5%99%A8)
 
 
 >尝试在Logisim中通过D触发器搭建一个4位的寄存器, 具备复位功能. 搭建后, 尝试从拨码开关向寄存器写入4位数据, 并将寄存器的输出接到七段数码管进行显示.
@@ -98,7 +124,7 @@
 
 <br>
 
-12.[搭建4位计数器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%AF%84%E5%AD%98%E5%99%A8)
+14.[搭建4位计数器](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%AF%84%E5%AD%98%E5%99%A8)
 
 
 >通过上述4位寄存器和之前搭建的加法器, 实现一个4位计数器, 每次时钟到来时, 寄存器中的值加1, 加到最大值时重新从0开始. 在Logisim中, 你可以通过元件库中的`Wiring(线路)`类别下的`Constant(常数)`元件实例化一个常数, 具体使用方式请RTFM.
@@ -107,7 +133,7 @@
 
 <br>
 
-13.[设计数列求和电路](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%AF%84%E5%AD%98%E5%99%A8)
+15.[设计数列求和电路](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%AF%84%E5%AD%98%E5%99%A8)
 
 
 >尝试通过寄存器和加法器, 计算出`1+2+...+10`的结果. 为了容纳计算结果, 你可以考虑实现8位的寄存器和加法器.
@@ -116,7 +142,7 @@
 
 <br>
 
-14.[实现电子时钟](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%AF%84%E5%AD%98%E5%99%A8)
+16.[实现电子时钟](https://ysyx.oscc.cc/docs/2407/f/3.html#%E5%AF%84%E5%AD%98%E5%99%A8)
 
 
 > 利用寄存器和七段数码管, 实现一个电子时钟, 具备"分"和"秒"的功能.  
