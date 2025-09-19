@@ -66,6 +66,7 @@
     <comp lib="0" loc="(580,400)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="S"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
@@ -73,9 +74,11 @@
     <comp lib="3" loc="(440,380)" name="Adder"/>
     <comp lib="4" loc="(260,360)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="A"/>
     </comp>
     <comp lib="4" loc="(480,370)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="B"/>
     </comp>
     <comp lib="5" loc="(170,480)" name="Button">
       <a name="label" val="CLK"/>
