@@ -129,7 +129,7 @@
 
 >通过上述4位寄存器和之前搭建的加法器, 实现一个4位计数器, 每次时钟到来时, 寄存器中的值加1, 加到最大值时重新从0开始. 在Logisim中, 你可以通过元件库中的`Wiring(线路)`类别下的`Constant(常数)`元件实例化一个常数, 具体使用方式请RTFM.
 
-可能的解法：
+可能的解法：[F3_4_bit_counter.circ](F3_4_bit_counter.circ)
 
 <br>
 
@@ -138,7 +138,7 @@
 
 >尝试通过寄存器和加法器, 计算出`1+2+...+10`的结果. 为了容纳计算结果, 你可以考虑实现8位的寄存器和加法器.
 
-可能的解法：
+可能的解法：[F3_Sequence_summation_circuit.circ](F3_Sequence_summation_circuit.circ)
 
 <br>
 
@@ -150,7 +150,7 @@
 >- 使用`Clock(时钟)`元件可以自动产生时钟信号, 无需像按钮那样手动点击. 
 >- 你可以在Logisim元件库的`Wiring(线路)`类别下找到它, 具体使用方式请RTFM.
 
-可能的解法：
+可能的解法：[F3_Digital_clock.circ](F3_Digital_clock.circ)
 
 
 
