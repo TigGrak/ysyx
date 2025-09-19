@@ -71,7 +71,7 @@
 
 >尝试按照上述思路, 在Logisim中搭建一个4位反码加法器. 搭建后, 通过仿真检查你的方案是否正确.
 
-可能的解法：
+可能的解法：[F3_4_bit_ones_complement_adder.circ](F3_4_bit_ones_complement_adder.circ)
 
 
 <br>
@@ -81,7 +81,7 @@
 
 >将上述真值表补充完整, 尝试列出溢出条件的逻辑表达式. 然后在Logisim中在4位加法器的基础上添加溢出判断逻辑. 添加后, 通过仿真检查你的方案是否正确.
 
-可能的解法：
+可能的解法：[F3_Detect_overflow_in_twos_complement_addition.circ](F3_Detect_overflow_in_twos_complement_addition.circ)
 
 <br>
 
